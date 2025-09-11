@@ -337,6 +337,7 @@
     "criteria": {
       "minecraft:blaze": "2025-09-05 12:02:36 -0600",
       "minecraft:skeleton": "2025-08-28 22:56:30 -0600",
+      "minecraft:zombified_piglin": "2025-09-10 20:50:21 -0600",
       "minecraft:enderman": "2025-08-28 22:50:46 -0600",
       "minecraft:magma_cube": "2025-09-05 08:25:23 -0600",
       "minecraft:spider": "2025-08-28 22:53:07 -0600",
@@ -627,6 +628,7 @@
       "cooked_porkchop": "2025-08-27 20:45:34 -0600",
       "apple": "2025-08-27 19:51:19 -0600",
       "bread": "2025-08-28 23:42:52 -0600",
+      "rotten_flesh": "2025-09-10 20:57:04 -0600",
       "cooked_mutton": "2025-08-27 19:59:45 -0600",
       "cooked_beef": "2025-08-28 22:03:11 -0600"
     },
@@ -2299,6 +2301,36 @@
   "minecraft:recipes/brewing/brewing_stand": {
     "criteria": {
       "has_blaze_rod": "2025-09-05 12:02:37 -0600"
+    },
+    "done": true
+  },
+  "minecraft:nether/get_wither_skull": {
+    "criteria": {
+      "wither_skull": "2025-09-10 20:55:04 -0600"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/skull_banner_pattern": {
+    "criteria": {
+      "has_wither_skeleton_skull": "2025-09-10 20:55:04 -0600"
+    },
+    "done": true
+  },
+  "minecraft:husbandry/bred_all_animals": {
+    "criteria": {
+      "minecraft:pig": "2025-09-10 21:03:27 -0600"
+    },
+    "done": false
+  },
+  "minecraft:husbandry/breed_an_animal": {
+    "criteria": {
+      "bred": "2025-09-10 21:03:27 -0600"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/wheat": {
+    "criteria": {
+      "has_hay_block": "2025-09-10 21:05:18 -0600"
     },
     "done": true
   },
